@@ -1,5 +1,12 @@
 package ru.netology.login.form.test;
-public class loginFormTest {
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import static com.codeborne.selenide.Selenide.open;
+
+public class LoginFormTest {
     @BeforeEach
     void setup() {
         open("http://localhost:9999");
